@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Breaking Bad Quiz</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="advance_button">Next</string>
+    <string name="question_one">Saul Goodman\'s real name is James McGill.</string>
+    <string name="question_two">Gustavo Fring was originally from Guatemala.</string>
+    <string name="question_three">Jesse Pinkman\'s license plate says CAPNCOOK in Season 1.</string>
+    <string name="question_four">Gale Boetticher gifts Walt a book of poetry by Robert Frost.</string>
+    <string name="question_five">Hector Salamanca\'s is the uncle of Marco and Leonel.</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="previous">Previous</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cheat">Cheat!</string>
+    <string name="show_answer">Show Answer</string>
+    <string name="are_you_sure_you_want_to_cheat">Are you sure you want to cheat?</string>
+    <string name="used_cheat_toast">YOU CHEATED!</string>
+    <string name="you_won">You Won!</string>
+    <string name="about">About</string>
+    <string name="this_app_asks_true_or_false_questions_about_the_netflix_series_breaking_bad_you_are_allowed_to_cheat_but_if_you_do_the_answer_does_not_count_as_correct">This app asks true or false questions about the Netflix series Breaking Bad. You are allowed to cheat but if you do the answer does not count as correct.</string>
+    <string name="title">Congratulations!</string>
+    <string name="no_text">No</string>
+    <string name="message_text">You won! Would you like to play again?</string>
+    <string name="yes_text">Yes</string>
+</resources>

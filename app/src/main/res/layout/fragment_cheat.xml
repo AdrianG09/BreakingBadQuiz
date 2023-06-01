@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheatFragment">
+
+
+    <TextView
+        android:id="@+id/ask_user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="@string/are_you_sure_you_want_to_cheat"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/cheated_answer_text"
+        app:layout_constraintEnd_toEndOf="@+id/cheated_answer_text"
+        app:layout_constraintStart_toStartOf="@+id/cheated_answer_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/show_answer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/show_answer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheated_answer_text" />
+
+    <TextView
+        android:id="@+id/cheated_answer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/show_answer_button"
+        app:layout_constraintEnd_toEndOf="@+id/show_answer_button"
+        app:layout_constraintStart_toStartOf="@+id/show_answer_button"
+        app:layout_constraintTop_toBottomOf="@+id/ask_user_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>
